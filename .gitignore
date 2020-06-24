@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+
+# GITINGNORE FILE PATHS
+# You can also use a double asterisk to match files based on their name and the name of their parent directory. 
+
+# You can prepend a pattern with a double asterisk to match directories anywhere in the repository.
+# **/logs 
+
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
